@@ -1,0 +1,262 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar-default{
+  height: 102px;
+  background-color: #3566cc;
+  /*font-family: ArtifaktLegend;*/
+}
+
+.container>.navbar-header{
+  width: 100%;
+  text-align: left;
+}
+.navbar-header .header-xl-text{
+ color: #ffffff;
+ font-size: 36px;
+ 
+}
+
+.page-header .glyphicon-question-sign{
+ color: #666666;
+ font-size: 15px; /* Increased size of icon to match with heading */
+}
+
+.container>.page-header{
+  
+  height: 94px;
+  /*font-family: ArtifaktLegend;*/
+  font-size: 23px;
+  margin-top: 136px;
+  text-align: left;
+  color: #333333;
+  color: var(--black);
+  border-bottom: none;
+}
+
+.content-sub-current{
+  height: 20px;
+  padding: 5px 0;
+}
+
+.content-sub-current h4{
+  height: 10px;
+  font-size: 14px;
+  text-align: left;
+  color: #008888;
+}
+
+.table-responsive {
+    border: none !important;
+}
+.details-h {
+  width: 67px;
+  height: 70px;
+  /*font-family: ArtifaktLegend;*/
+  font-size: 20px;
+  color: #333333;
+  margin-top: 22px;
+  color: var(--black);
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: none;
+    width: 36px;
+    height: 16px;
+    text-align: right;
+    /*font-family: ArtifaktLegend;*/
+    
+}
+
+.color1{
+    font-size: 11px;
+    text-align: left;
+    color: #008888;
+    font-weight: bold;
+}
+
+.dashboard .table>tbody>tr>td {
+  width: 86px !important;
+  height: 20px !important;
+  /*font-family: ArtifaktLegend;*/
+  font-size: 14px !important;
+  text-align: left;
+  color: #666666;
+  text-align: right;
+  border-top: 1px solid #eeeeee !important;
+}
+
+.dashboard .first-col{
+  text-align: left !important;
+}
+
+.price-wrapper>.price-type{
+ color: #333333;
+ font-size: 14px;
+}
+
+.price-wrapper>.price-main{
+  color: #333333;
+  font-size: 40px;
+}
+
+
+/* List View */
+.list-view table>tbody>tr .col-right{
+  text-align: right;
+}
+
+.list-view .page-header{
+  border-bottom: none;
+   -webkit-box-shadow: 0 4px 6px -6px #222 !important;
+  -moz-box-shadow: 0 4px 6px -6px #222 !important;
+  box-shadow: 0 4px 6px -6px #222 !important;
+  padding: 20px 0 !important;
+  margin: 0px;
+  margin-bottom: 20px !important;
+}
+
+.list-view table>thead>tr>th{
+  width: 14%;
+}
+.list-view table>thead>tr>th:last-child{
+  text-align: right;
+}
+
+.list-view .table>tbody>tr>td{
+  border-top: none !important;
+}
+
+.list-view .cls-light-grey{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #666666;
+}
+
+.list-view .sub-price{
+ padding: 8px 20px 0 2px !important;
+ text-align: right;
+ color: #666666;
+ font-size: 14px;
+}
+
+.back-btn{
+ color: #333333;
+ font-size: 16px;
+ line-height: 24px;
+}
+
+.padding-right-sm{
+  padding-right: 21px !important;
+}
+
+.line{
+  height: 1px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.line-bottom{
+  height: 1px;
+  border-bottom: solid 1px #eeeeee;
+  padding: 0 6px;
+}
+
+.col-left{
+  font-size: 14px;
+}
+.line-shadow{
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+/* Not required for template or sticky footer method. */
+
+.righ-arrow{
+  color: #939393;
+}
+
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  margin-top: 20PX;
+  background-color: #eeeeee;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.footer > .container .text-muted {
+  /*font-family: ArtifaktLegend;*/
+  font-size: 14px;
+  color: #333333;
+}
+
+.text-trademarks{
+  color: #0696d7;
+}
+code {
+  font-size: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container>.navbar-header{
+     text-align: center !important;
+     font-size: 20px;
+   }
+  .footer{
+   height: 130px !important;
+  }
+ 
+ .table-responsive>.table{
+   margin-bottom: 50px !important;
+ }
+
+ .price-wrapper>.price-main {
+    font-size: 39px !important;
+}
+.date-txt{display: none !important;}
+
+
+}
+
+@media (max-width: 767px){
+ .visible-xs {
+    display: inline-block !important;
+    float: right !important;
+}
+}
+
+
+
+
+
+

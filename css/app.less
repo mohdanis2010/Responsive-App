@@ -1,0 +1,262 @@
+@color_1: #ffffff;
+@color_2: #666666;
+@color_3: #333333;
+@color_4: var(--black);
+@color_5: #008888;
+@color_6: #939393;
+@color_7: #0696d7;
+@font_family_1: Arial, Helvetica, sans-serif;
+@background_color_1: #3566cc;
+@background_color_2: #eeeeee;
+
+/* List View */
+/* Not required for template or sticky footer method. */
+/* For mobile phones: */
+html {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+}
+body {
+	margin-bottom: 60px;
+	font-family: @font_family_1;
+	>.container {
+		padding: 60px 15px 0;
+	}
+}
+.navbar-default {
+	height: 102px;
+	background-color: @background_color_1;
+}
+.container {
+	>.navbar-header {
+		width: 100%;
+		text-align: left;
+	}
+	>.page-header {
+		height: 94px;
+		font-size: 23px;
+		margin-top: 136px;
+		text-align: left;
+		color: @color_3;
+		color: @color_4;
+		border-bottom: none;
+	}
+	.text-muted {
+		margin: 20px 0;
+	}
+}
+.navbar-header {
+	.header-xl-text {
+		color: @color_1;
+		font-size: 36px;
+	}
+}
+.page-header {
+	.glyphicon-question-sign {
+		color: @color_2;
+		font-size: 15px;
+	}
+}
+.content-sub-current {
+	height: 20px;
+	padding: 5px 0;
+	h4 {
+		height: 10px;
+		font-size: 14px;
+		text-align: left;
+		color: @color_5;
+	}
+}
+.table-responsive {
+	border: none !important;
+}
+.details-h {
+	width: 67px;
+	height: 70px;
+	font-size: 20px;
+	color: @color_3;
+	margin-top: 22px;
+	color: @color_4;
+}
+.table {
+	>thead {
+		>tr {
+			>th {
+				vertical-align: bottom;
+				border-bottom: none;
+				width: 36px;
+				height: 16px;
+				text-align: right;
+			}
+		}
+	}
+}
+.color1 {
+	font-size: 11px;
+	text-align: left;
+	color: @color_5;
+	font-weight: bold;
+}
+.dashboard {
+	.table {
+		>tbody {
+			>tr {
+				>td {
+					width: 86px !important;
+					height: 20px !important;
+					font-size: 14px !important;
+					text-align: left;
+					color: @color_2;
+					text-align: right;
+					border-top: 1px solid #eeeeee !important;
+				}
+			}
+		}
+	}
+	.first-col {
+		text-align: left !important;
+	}
+}
+.price-wrapper {
+	>.price-type {
+		color: @color_3;
+		font-size: 14px;
+	}
+	>.price-main {
+		color: @color_3;
+		font-size: 40px;
+	}
+}
+.list-view {
+	table {
+		>tbody {
+			>tr {
+				.col-right {
+					text-align: right;
+				}
+			}
+		}
+		>thead {
+			>tr {
+				>th {
+					width: 14%;
+					&:last-child {
+						text-align: right;
+					}
+				}
+			}
+		}
+	}
+	.page-header {
+		border-bottom: none;
+		-webkit-box-shadow: 0 4px 6px -6px #222 !important;
+		-moz-box-shadow: 0 4px 6px -6px #222 !important;
+		box-shadow: 0 4px 6px -6px #222 !important;
+		padding: 20px 0 !important;
+		margin: 0px;
+		margin-bottom: 20px !important;
+	}
+	.table {
+		>tbody {
+			>tr {
+				>td {
+					border-top: none !important;
+				}
+			}
+		}
+	}
+	.cls-light-grey {
+		font-size: 14px;
+		font-weight: 500;
+		text-align: left;
+		color: @color_2;
+	}
+	.sub-price {
+		padding: 8px 20px 0 2px !important;
+		text-align: right;
+		color: @color_2;
+		font-size: 14px;
+	}
+}
+.back-btn {
+	color: @color_3;
+	font-size: 16px;
+	line-height: 24px;
+}
+.padding-right-sm {
+	padding-right: 21px !important;
+}
+.line {
+	height: 1px;
+	border-bottom: solid 1px #eeeeee;
+}
+.line-bottom {
+	height: 1px;
+	border-bottom: solid 1px #eeeeee;
+	padding: 0 6px;
+}
+.col-left {
+	font-size: 14px;
+}
+.line-shadow {
+	-webkit-box-shadow: 0 4px 6px -6px #222;
+	-moz-box-shadow: 0 4px 6px -6px #222;
+	box-shadow: 0 4px 6px -6px #222;
+}
+.righ-arrow {
+	color: @color_6;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	margin-top: 20PX;
+	background-color: @background_color_2;
+	>.container {
+		padding-right: 15px;
+		padding-left: 15px;
+		text-align: center;
+		.text-muted {
+			font-size: 14px;
+			color: @color_3;
+		}
+	}
+}
+.text-trademarks {
+	color: @color_7;
+}
+code {
+	font-size: 80%;
+}
+@media only screen and (max-width: 768px) {
+	.container {
+		>.navbar-header {
+			text-align: center !important;
+			font-size: 20px;
+		}
+	}
+	.footer {
+		height: 130px !important;
+	}
+	.table-responsive {
+		>.table {
+			margin-bottom: 50px !important;
+		}
+	}
+	.price-wrapper {
+		>.price-main {
+			font-size: 39px !important;
+		}
+	}
+	.date-txt {
+		display: none !important;
+	}
+}
+@media (max-width: 767px) {
+	.visible-xs {
+		display: inline-block !important;
+		float: right !important;
+	}
+}

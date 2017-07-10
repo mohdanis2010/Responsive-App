@@ -1,0 +1,76 @@
+
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <h3 class="header-xl-text">Usage and Billing</h3>
+        </div>
+        
+      </div>
+</nav>
+
+    <!-- Begin page content -->
+    <div class="container dashboard">
+      <div class="page-header">
+      <div class="pull-left"> 
+        This Month's Charges 
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Lorem-Ipsum!"><span class="glyphicon glyphicon-question-sign"></span></a>
+        <div class="content-sub-current">
+            <h4>Mar 1 - yesterday</h4>
+            <h4 class="date-txt">Will be charged on <b>1 April 2016</b></h4>
+        </div>
+       </div> 
+
+       <div class="price-wrapper pull-right"> 
+          <div class="price-type pull-right">USD</div>
+          <div class="price-main">$2.00</div>
+       </div>
+
+     </div>
+  <div class="line"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-responsive">
+
+        <table summary="" class="table table-hover">
+          <caption class="text-left details-h">Details</caption>
+          <thead>
+            <tr>
+              <th></th>  
+              <th class="visible-sm visible-md visible-lg color1">USAGE</th>
+              <th class="visible-sm visible-md visible-lg color1">FREE QU0TA</th>
+              <th class="visible-sm visible-md visible-lg color1">CHARGABLE</th>
+              <th class="visible-sm visible-md visible-lg color1">$/UNIT</th>
+              <th class="visible-sm visible-md visible-lg color1">SUB TOTAL</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+       <tr ng-repeat="data in data">
+		   <td class="first-col">{{data.item}} 
+         <a class="visible-xs" href="#page1"><span class="pull-right righ-arrow glyphicon glyphicon-chevron-right"></span>&nbsp;</a>
+         </td>
+		   <td class="visible-sm visible-md visible-lg">{{data.usage}}</td>
+		   <td class="visible-sm visible-md visible-lg">{{data.quota}}</td>
+		   <td class="visible-sm visible-md visible-lg">{{data.chargable}}</td>
+       <td class="visible-sm visible-md visible-lg">{{data.unit}}</td>
+       <td class="visible-sm visible-md visible-lg">{{data.sub_total}}</td>
+		   <div>
+ 		  </tr>
+ 
+     </tbody>
+          
+        </table>
+      </div><!--end of .table-responsive-->
+    </div>
+  </div>
+</div>
+
+
+
+   
+
+
+
+
+
